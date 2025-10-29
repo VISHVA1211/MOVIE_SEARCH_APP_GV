@@ -1,0 +1,30 @@
+.favorites {
+  text-align: center;
+  padding: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.fav-card {
+  position: relative;
+}
+
+.remove-btn {
+  background-color: crimson;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.remove-btn:hover {
+  background-color: #a60000;
+}
